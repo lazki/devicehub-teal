@@ -18,7 +18,12 @@ There is a Docker compose file for an automated deployment. The next steps descr
   cd devicehub-teal
 ```
 
-2. Run the docker containers:
+2. Create an enviroment from examples:
+```
+  cp examples/env.example .env
+```
+
+3. Run the docker containers:
 ```
   docker compose up
 ```
